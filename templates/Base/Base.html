@@ -1,0 +1,19 @@
+{% load i18n %}
+{% load l10n %}
+{% load tz %}
+{% load staticfiles %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+    <script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+</head>
+<body>
+    <div>{% trans "hi, i'm here !" %}</div>
+    <div id="test-js"></div>
+    <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+</body>
+</html>

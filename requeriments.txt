@@ -1,0 +1,8 @@
+# Para instalar una versión específica
+Django==1.11.7
+
+# Para instalar una versión igual o superior
+djangorestframework
+
+# Para instalar la versión más reciente
+Pillow
