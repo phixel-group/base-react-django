@@ -9,11 +9,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link  rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'frontend/bootstrap.min.css' %}">
     <script type="text/javascript" src="{% static 'js/base.js' %}"></script>
 </head>
 <body>
     <div>{% trans "hi, i'm here !" %}</div>
     <div id="test-js"></div>
+    <div id="app"></div>
+    <h1>Heading 1</h1>
     <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+    <script type="text/javascript" src="{% static 'frontend/main.js' %}"></script>
 </body>
 </html>
